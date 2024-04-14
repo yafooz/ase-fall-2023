@@ -71,6 +71,7 @@ class Game:
         return self._has_winner
 
     def is_tied(self):
+        
         """Return True if the game is tied, and False otherwise."""
         no_winner = not self._has_winner
         played_moves = (
